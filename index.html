@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+ 
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800;900&display=swap');
+        h1{
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            color: #007fad;
+        }
+        .greetings{
+            color: black;
+            margin-top: 30px;
+        }
+        p{
+            font-weight: normal;
+            font-family: 'Raleway', sans-serif;
+            background-color: white;
+            margin: 50px 0;
+            text-decoration: none;
+         
+        }
+        .button{
+            font-weight: bolder;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: none;
+            background-color: #007fad;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            height: 100%;
+        
+        }
+        .logo{
+            max-width: 120px;
+        margin: 3% 0 3% 3%;
+        float: left;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        border: 0;
+        }
+        .hero{
+            width: 100%;
+            border-radius: 25px;
+        }
+        body{
+        background-color: #242424;
+        font-size: 19px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 4%;
+        }
+        header{
+            
+            width: 98%;
+        }
+        .email{
+            background-color: white;
+            border-radius: 15px;
+            padding: 0 9% 10% 9%;
+            overflow: hidden;
+        }
+        .emoji{
+            width: 20%;
+            margin: 0 30px;
+            display: inline-block;
+        }
+        .right{
+            transform: scaleX(-1);
+        }
+        .bottom-container{
+            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */ 
+            
+        }
+        .FB{
+            font-weight: bolder;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: none;
+            background-color: #e3e3e3;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            height: 100%;
+            float: right;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+        h2{
+            font-family: 'Raleway', sans-serif;
+        }
+        .date-container{
+            background-color: #007fad;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 15px;
+            font-family: 'Raleway', sans-serif;
+            display: inline-block;
+            margin: 20px 10px 0 20px;
+            font-size: 1.5rem;
+        }
+        .time-container{
+            background-color: #e3e3e3;
+           
+            padding: 15px;
+            border-radius: 15px;
+            font-family: 'Raleway', sans-serif;
+            display: inline-block;
+            margin: 20px 10px 50px 20px;
+            font-size: 1.5rem;
+            text-align: center;
+            
+        }
+        .conjunction{
+            font-family: 'Raleway', sans-serif;
+            display: inline-block;  
+            margin: 0 20px;
+        }
+        .container{
+            align-content: center;
+            justify-content: center;
+            align-self: center;
+        }
+        th{
+            font-family: 'Raleway', sans-serif;
+            background-color: #007fad;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        table{
+           border-spacing: 15px;
+           
+        }
+        td{
+            font-family: 'Raleway', sans-serif;
+            padding: 20px;
+            background-color: #e3e3e3;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .card{
+            
+            background-color: #f7f7f7;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin-top:25px;
+            overflow: hidden;
+        }
+        .highlightData{
+            font-family: 'Raleway', sans-serif;
+            padding: 20px;
+            background-color: #e3e3e3;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1rem;
+            width: 100%;
+        }
+        .position{
+            color:  #007fad;
+        }
+        .blue-card{
+            background-color:  #007fad;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin-top:25px;
+            overflow: hidden;
+            display: inline-block;
+            margin: 15px 5px;
+        }
+    </style>
+   
+   
+    <body >
+        <div class="email">
+        <header>
+            <img src= "https://i.ibb.co/5Gy0s7W/logo-plain-01.png" class="logo"/>
+
+            
+        </header>
+        <div>
+          
+           <img src="https://i.ibb.co/xCVKJFm/VR-AR-Header.gif" alt="hero" class="hero"/>
+        
+        <h1 class="greetings">Good Day!</h1>
+        <h1> 🔶Maam Morie🔷 </h1>
+        <p>
+            We want to express our deepest gratitude and thanks for accepting our invitation to be our speaker for Frameworks: AR and VR.
+<p>
+    Attached to this email are necessary information about the said event.
+</p>
+
+    </p>
+       
+       <div class="card">
+        <h1 class="greetings">MEETING</h1>
+        <h1>DATE</h1>
+
+            <div class="blue-card">
+                <strong>November 21, 2021</strong><br/>
+                
+                Philippine time
+            </div>
+            <div class="blue-card">
+                <strong>November 20, 2021</strong><br/>
+                California time
+            </div>
+            <div class="blue-card">
+                <strong>November 21, 2021</strong><br/>
+                India time
+            </div>
+       </div>
+      
+        <div class="card">
+        <h1 class="greetings">PROGRAM</h1>
+        <h1>FLOW</h1>
+        <table>
+            <tr>
+              <th>TIME</th>
+              <th>ACTIVITY</th>
+              <th>DURATION</th>
+            </tr>
+            <tr>
+              <td>1:00 P.M. to 1:05 P.M. 
+                <br/>
+                Philippines Time
+                <br/><br/>
+                9:00 P.M. to 9:05 P.M. 
+                <br/>
+                Los Angeles Time
+                <br/><br/>
+                10:30 A.M. to 10:35 A.M. 
+                <br/>
+                India Time
+
+              </td>
+              <td>5 mins.</td>
+              <td>Participants Admission</td>
+            </tr>
+            <tr>
+                <td>1:05 P.M. to 1:15 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    9:05 P.M. to 9:15 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    10:35 A.M. to 10:45 A.M. 
+                    <br/>
+                    India Time
+                </td>
+              
+
+                <td>10 mins.</td>
+               
+                    <td>Opening Remarks and Greetings<br/><br/>
+                     Program Reminders</td>
+           
+                  
+                
+              </tr>
+              <tr>
+                  <th>Virtual Reality Experiences | Start</th>
+              </tr>
+
+              <tr>
+                <td>1:15 P.M. to 1:20 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    9:15 P.M. to 9:20 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    10:45 A.M. to 10:50 A.M. 
+                    <br/>
+                    India Time
+    
+                </td>
+                <td>5 mins.</td>
+                <td>Speaker Introduction </td>
+              </tr>
+
+              <tr>
+                <td>1:20 P.M. to 3:20 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    9:20 P.M. to 11:20 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    10:50 A.M. to 12:50 P.M. 
+                    <br/>
+                    India Time
+    
+                </td>
+                <td>120 mins.</td>
+                <td>Webinar Proper</td>
+              </tr>
+
+              <tr>
+                <td>3:20 P.M. to 3:40 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    11:20 P.M. to 11:40 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    12:50 A.M. to 01:10 P.M. 
+                    <br/>
+                    India Time
+    
+                </td>
+                <td>20 mins.</td>
+                <td>Question and Answer</td>
+              </tr>
+
+              <tr>
+                <td>3:40 P.M. to 3:45 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    11:00 P.M. to 11:05 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    01:10 P.M. to 01:15 P.M. 
+                    <br/>
+                    India Time
+    
+                </td>
+                <td>5 mins.
+                    
+                </td>
+                
+                    <td>Awarding of Certificates<br/><br/>
+                    Picture Taking<br/><br/>
+                  
+                  </td>
+               
+              </tr>
+
+              <th>Virtual Reality Experiences | End</th>
+
+              <tr>
+                <td>3:45 P.M. to 3:55 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    11:05 P.M. to 11:15 P.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    01:15 P.M. to 01:25 P.M. 
+                    <br/>
+                    India Time
+                </td>
+                <td>10 mins.</td>
+                <td>Ice Breaker</td>
+              </tr>
+            
+              <tr>
+                <th >Augmented and Virtual Reality ? The Game Change | Start</th>
+            </tr>
+
+            <tr>
+              <td>3:55 P.M. to 4:00 P.M.
+                <br/>
+                Philippines Time
+                <br/><br/>
+                11:15 P.M. to 11:20 P.M. 
+                <br/>
+                California Time
+                <br/><br/>
+                01:25 P.M. to 01:30 P.M. 
+                <br/>
+                India Time
+              </td>
+              <td>5 mins.</td>
+              <td>Speaker Introduction </td>
+            </tr>
+
+            <tr>
+              <td>4:00 P.M. to 6:00 P.M.
+                <br/>
+                Philippines Time
+                <br/><br/>
+                11:20 P.M. to 01:20 A.M. 
+                <br/>
+                California Time
+                <br/><br/>
+                01:30 P.M. to 03:30 P.M. 
+                <br/>
+                India Time
+              </td>
+              <td>120 mins.</td>
+              <td>Webinar Proper</td>
+            </tr>
+
+            <tr>
+              <td>6:00 P.M. to 6:20 P.M.
+                <br/>
+                Philippines Time
+                <br/><br/>
+                01:20 A.M. to 01:40 A.M. 
+                <br/>
+                California Time
+                <br/><br/>
+                03:30 P.M. to 03:50 P.M. 
+                <br/>
+                India Time
+              </td>
+              <td>20 mins.</td>
+              <td>Question and Answer</td>
+            </tr>
+
+            <tr>
+                <td>6:20 P.M. to 6:25 P.M.
+                    <br/>
+                    Philippines Time
+                    <br/><br/>
+                    01:40 A.M. to 01:45 A.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    03:50 P.M. to 03:55 P.M. 
+                    <br/>
+                    India Time
+                </td>
+                <td>5 mins.</td>
+                
+                    <td>Awarding of Certificates<br/><br/>
+                    Picture Taking<br/><br/>
+                  
+                  </td>
+            </tr>
+                  <tr>
+                    <th >Augmented and Virtual Reality ? The Game Change | End</th>
+                </tr>
+            <tr>
+                <td>6:25 P.M. to 6:30 P.M.  <br/>
+                    Philippines Time
+                    <br/><br/>
+                    01:45 A.M. to 01:50 A.M. 
+                    <br/>
+                    California Time
+                    <br/><br/>
+                    03:55 P.M to 04:00 P.M. 
+                    <br/>
+                    India Time</td>
+                <td>5 mins.</td>
+                <td>Closing Remarks<br/><br/>
+                    Annoucements<br/><br/>
+            </tr>
+
+          </table>
+          </div>
+        <p>
+           Please do note that the event will be recorded and images will be taken during the webinar for documentation purposes only. Meeting links for both the event and the post event meeting will be sent later this day.
+        </p>
+       
+        <p>
+          Once again, we thank you for being our speaker for our event. If you have any questions or clarifications please contact us here at our email or message us at our facebook page.
+        </p>
+  
+
+            <div class="bottom-container">    
+            <a href="https://www.facebook.com/tipqc.acm" class="FB">FACEBOOK PAGE</a>
+            <p  class="FB">EMAIL: tipqc.acm@gmail.com</p>
+            </div>
+
+        <p><strong>Regards,</strong></p>
+        <p>Powell, Diriangen Lempira</p>
+        <p class="position"><strong>TIP-ACM student chapter, President</strong></p>
+    
+    </div>
+    </body>
+
+</html>
